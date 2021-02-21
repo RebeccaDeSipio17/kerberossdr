@@ -20,11 +20,11 @@
 
 # Form implementation generated from reading ui file 'Main_hydra_dev.ui'
 #
-# Created by: PyQt4 UI code generator 4.12.1
+# Created by: PyQt5 UI code generator 4.12.1
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt4 import QtCore, QtGui
+from PyQt5 import QtCore, QtGui
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -56,7 +56,7 @@ class Ui_MainWindow(object):
         self.page_4 = QtGui.QWidget()
         self.page_4.setObjectName(_fromUtf8("page_4"))
         self.verticalLayout_7 = QtGui.QVBoxLayout(self.page_4)
-        self.verticalLayout_7.setMargin(0)
+        self.verticalLayout_7.setContentsMargins(0,0,0,0)
         self.verticalLayout_7.setObjectName(_fromUtf8("verticalLayout_7"))
         self.groupBox_7 = QtGui.QGroupBox(self.page_4)
         self.groupBox_7.setObjectName(_fromUtf8("groupBox_7"))
@@ -317,7 +317,7 @@ class Ui_MainWindow(object):
         self.page = QtGui.QWidget()
         self.page.setObjectName(_fromUtf8("page"))
         self.horizontalLayout_2 = QtGui.QHBoxLayout(self.page)
-        self.horizontalLayout_2.setMargin(0)
+        self.horizontalLayout_2.setContentsMargins(0,0,0,0)
         self.horizontalLayout_2.setObjectName(_fromUtf8("horizontalLayout_2"))
 
         self.groupBox = QtGui.QGroupBox(self.page)
@@ -379,7 +379,7 @@ class Ui_MainWindow(object):
         self.page_2 = QtGui.QWidget()
         self.page_2.setObjectName(_fromUtf8("page_2"))
         self.verticalLayout = QtGui.QVBoxLayout(self.page_2)
-        self.verticalLayout.setMargin(0)
+        self.verticalLayout.setContentsMargins(0,0,0,0)
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
         self.groupBox_2 = QtGui.QGroupBox(self.page_2)
         self.groupBox_2.setObjectName(_fromUtf8("groupBox_2"))
@@ -489,7 +489,7 @@ class Ui_MainWindow(object):
         self.page_3 = QtGui.QWidget()
         self.page_3.setObjectName(_fromUtf8("page_3"))
         self.verticalLayout_3 = QtGui.QVBoxLayout(self.page_3)
-        self.verticalLayout_3.setMargin(0)
+        self.verticalLayout_3.setContentsMargins(0,0,0,0)
         self.verticalLayout_3.setObjectName(_fromUtf8("verticalLayout_3"))
         self.checkBox_en_passive_radar = QtGui.QCheckBox(self.page_3)
         self.checkBox_en_passive_radar.setObjectName(_fromUtf8("checkBox_en_passive_radar"))
@@ -693,7 +693,7 @@ class Ui_MainWindow(object):
         self.tab_spectrum = QtGui.QWidget()
         self.tab_spectrum.setObjectName(_fromUtf8("tab_spectrum"))
         self.gridLayout_6 = QtGui.QGridLayout(self.tab_spectrum)
-        self.gridLayout_6.setMargin(0)
+        self.gridLayout_6.setContentsMargins(0,0,0,0)
         self.gridLayout_6.setObjectName(_fromUtf8("gridLayout_6"))
         self.gridLayout_spectrum = QtGui.QGridLayout()
         self.gridLayout_spectrum.setObjectName(_fromUtf8("gridLayout_spectrum"))
@@ -702,7 +702,7 @@ class Ui_MainWindow(object):
         self.tab_symc = QtGui.QWidget()
         self.tab_symc.setObjectName(_fromUtf8("tab_symc"))
         self.gridLayout_5 = QtGui.QGridLayout(self.tab_symc)
-        self.gridLayout_5.setMargin(0)
+        self.gridLayout_5.setContentsMargins(0,0,0,0)
         self.gridLayout_5.setObjectName(_fromUtf8("gridLayout_5"))
         self.gridLayout_sync = QtGui.QGridLayout()
         self.gridLayout_sync.setObjectName(_fromUtf8("gridLayout_sync"))
@@ -711,7 +711,7 @@ class Ui_MainWindow(object):
         self.tab_DOA = QtGui.QWidget()
         self.tab_DOA.setObjectName(_fromUtf8("tab_DOA"))
         self.gridLayout_12 = QtGui.QGridLayout(self.tab_DOA)
-        self.gridLayout_12.setMargin(0)
+        self.gridLayout_12.setContentsMargins(0,0,0,0)
         self.gridLayout_12.setObjectName(_fromUtf8("gridLayout_12"))
         self.gridLayout_DOA = QtGui.QGridLayout()
         self.gridLayout_DOA.setObjectName(_fromUtf8("gridLayout_DOA"))
@@ -720,7 +720,7 @@ class Ui_MainWindow(object):
         self.tab = QtGui.QWidget()
         self.tab.setObjectName(_fromUtf8("tab"))
         self.gridLayout_23 = QtGui.QGridLayout(self.tab)
-        self.gridLayout_23.setMargin(0)
+        self.gridLayout_23.setContentsMargins(0,0,0,0)
         self.gridLayout_23.setObjectName(_fromUtf8("gridLayout_23"))
         self.gridLayout_RD = QtGui.QGridLayout()
         self.gridLayout_RD.setObjectName(_fromUtf8("gridLayout_RD"))
